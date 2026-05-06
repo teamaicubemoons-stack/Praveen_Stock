@@ -34,8 +34,8 @@ export default function Sidebar() {
     <aside className="h-screen w-[240px] flex flex-col bg-white border-r border-slate-200 relative z-30 flex-shrink-0 shadow-[4px_0_24px_rgba(0,0,0,0.02)]">
       {/* Logo */}
       <div className="flex items-center gap-3 py-5 px-4 border-b border-slate-100 min-h-[72px]">
-        <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-600 to-indigo-700 flex items-center justify-center flex-shrink-0 shadow-glow">
-          <Package size={18} className="text-white" />
+        <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center flex-shrink-0 shadow-sm border border-slate-200 bg-white">
+          <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
         </div>
         <div className="overflow-hidden whitespace-nowrap">
           <p className="text-sm font-bold text-slate-900 leading-tight">Praveen Trading</p>

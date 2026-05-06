@@ -40,8 +40,8 @@ export default function Login() {
         <div className="bg-white rounded-2xl shadow-[0_8px_40px_rgba(99,102,241,0.12)] border border-slate-200 p-8">
           {/* Logo */}
           <div className="text-center mb-8">
-            <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-brand-600 to-indigo-700 flex items-center justify-center mx-auto mb-4 shadow-glow">
-              <Package size={28} className="text-white" />
+            <div className="w-20 h-20 rounded-full overflow-hidden flex items-center justify-center mx-auto mb-4 shadow-float border-2 border-white bg-white">
+              <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
             </div>
             <h1 className="text-2xl font-bold text-slate-900">Praveen Trading Co.</h1>
             <p className="text-slate-500 text-sm mt-1">Wholesale Inventory & Order Management</p>
